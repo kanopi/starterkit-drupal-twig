@@ -1,0 +1,32 @@
+{
+    "name":             "kanopi/starterkit-drupal-bie",
+    "description":      "BIE's Base StarterKit for Drupal.",
+    "keywords":         ["twig", "pattern lab", "starterkit", "bie", "drupal"],
+    "license":          "GPL-2.0+",
+    "type":             "patternlab-starterkit",
+    "authors": [
+        {
+            "name":         "Jason Savino",
+            "email":        "jason@kanopistudios.com",
+            "homepage":     "http://kanopistudios.com",
+            "role":         "Creator"
+        }
+    ],
+    "support": {
+        "issues":         "https://github.com/kanopi/starterkit-drupal-bie/issues",
+        "source":         "https://github.com/kanopi/starterkit-drupal-bie/releases"
+    },
+    "require": {
+        "pattern-lab/core": "^2.0.0",
+        "pattern-lab/patternengine-twig": "^2.0.0"
+    },
+    "extra": {
+        "patternlab": {
+            "dist": {
+                "sourceDir": [
+                    { "*": "*" }
+                ]
+            }
+        }
+    }
+}
